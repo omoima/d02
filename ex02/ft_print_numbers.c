@@ -1,7 +1,9 @@
 void ft_print_numbers(void){
-	char num;
-	num = '0';
-	while (num <= '9'){
-		ft_putchar(num++);
+	int num;
+	int show;
+	num = 0;
+	while (num <= 9){
+		show = 48 + num++;
+		ft_putchar(show);
 	}
 }
