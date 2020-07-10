@@ -4,7 +4,7 @@ void 	ft_out(char a, char b, char c){
 	ft_putchar(a);
 	ft_putchar(b);
 	ft_putchar(c);
-
+	
 	ft_putchar(',');
 	ft_putchar(' ');
 }
